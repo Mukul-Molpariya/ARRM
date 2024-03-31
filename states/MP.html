@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP</title>
+
+    <style>
+        body {
+          font-family: 'Arial', sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f8f9fa;
+          color: #333;
+        }
+    
+        header {
+          background-color: #343a40;
+          color: #fff;
+          padding: 20px 0;
+          text-align: center;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          animation: fadeInDown 1s ease;
+        }
+    
+        nav {
+          background-color: #495057;
+          padding: 10px 0;
+          text-align: center;
+          animation: fadeInUp 1s ease;
+        }
+    
+        nav a {
+          color: #fff;
+          text-decoration: none;
+          padding: 10px 20px;
+          transition: background-color 0.3s ease;
+        }
+    
+        nav a:hover {
+          background-color: #6c757d;
+          transform: scale(1.1);
+        }
+    
+        .container {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 0 20px;
+        }
+    
+        section {
+          padding: 40px 0;
+          text-align: center;
+          opacity: 0;
+          animation: fadeInUp 1s ease forwards;
+        }
+    
+        h1 {
+          margin-bottom: 20px;
+          font-weight: 700;
+          color: #fff;
+        }
+       
+        h2 {
+          margin-bottom: 20px;
+          font-weight: 700;
+          color: #343a40;
+        }
+    
+        p {
+          font-size: 18px;
+          line-height: 1.6;
+        }
+    
+        .about-img {
+          width: 100%;
+          max-width: 400px;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s ease;
+        }
+    
+        .about-img:hover {
+          transform: scale(1.05);
+        }
+    
+        footer {
+          background-color: #343a40;
+          color: #fff;
+          text-align: center;
+          padding: 20px 0;
+          position: fixed;
+          width: 100%;
+          bottom: 0;
+          animation: fadeInUp 1s ease;
+        }
+    
+        @keyframes fadeInDown {
+          from {
+            opacity: 0;
+            transform: translateY(-50px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+    
+        @keyframes fadeInUp {
+          from {
+            opacity: 0;
+            transform: translateY(50px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+    
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+      </style>
+    </head>
+    <body>
+      <header>
+        <h1>Delhi अन्तरराष्ट्रीय रेगर राज मंच</h1>
+      </header>
+      
+      <nav>
+        <a href="../index.html">HOME</a>
+        <a href="#about">About Us</a>
+        <a href="#manifesto">Manifesto</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      
+      <div class="container">
+        <section id="about">
+          <h2>About Us</h2>
+          <img class="about-img" src="../img/GWALIOR.png" alt="About Image">
+          <p>Welcome to the official website of MADHYA PRADESH अन्तरराष्ट्रीय रेगर राज मंच. We are committed to serving the people of Delhi and working towards a better future for all.</p>
+        </section>
+        
+        <section id="manifesto">
+          <h2>Manifesto</h2>
+          <img class="about-img" src="../img/vrinder.png" alt="About Image">
+          <p>Our manifesto focuses on key issues such as education, healthcare, infrastructure, and employment. We believe in inclusive growth and development for every citizen of Delhi.</p>
+        </section>
+        
+        <section id="events">
+          <h2>Events</h2>
+          <p>Stay updated with our latest events and campaigns. Join us in our efforts to create positive change in Delhi.</p>
+        </section>
+        
+        <section id="contact">
+          <h2>Contact</h2>
+          <p>For inquiries and collaborations, please contact us at:</p>
+          <p>Email: info@example.com</p>
+          <p>Phone: +91 1234567890</p>
+        </section>
+      </div>
+      
+      <footer>
+        <p>&copy; All Rights Reserved | Made BY MUKUL &hearts;</p>
+      </footer>
+
+    
+</body>
+</html>
