@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
     margin-top: 25px;
 }
 
@@ -29,7 +30,12 @@
 
 .home-content{
     position: absolute;
-    margin-left: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 25px;
 }
 .home-content h2{
     font-size: 2.5rem;
@@ -150,6 +156,14 @@
     margin-top: 50px;
 }
 
+#about_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
 #about_section h2 {
     display: flex;
     align-items: center;
@@ -172,6 +186,11 @@
 
 #contact{
     height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 #contact h2 {
@@ -203,6 +222,10 @@
 }
 
 .contact_content a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
     margin-left: 15vw;
     text-decoration: none;
     color: black;
@@ -229,6 +252,10 @@
     font-size: 1rem;
 }
 
+.cbtn2{
+    display: none;
+}
+
 
 /* footer */
 
@@ -241,4 +268,70 @@ footer{
     padding: 2px;
     font-size: 1rem;
     margin-top: 25px;
+}
+
+@media (max-width: 900px){
+    .home-content h2{
+        font-size: 2rem;
+    }
+    .home-content{
+        margin-top: 120px;
+    }
+    .home-content p{
+        font-size: 1.2rem;
+    }
+    #about{
+        flex-direction: column;
+    }
+    .cimg {
+        height: 440px;
+    }
+}
+
+@media (max-width: 550px){
+    #home h1{
+        font-size: 2rem;
+    }
+    .home-content{
+        margin-top: 120px;
+    }
+    .home-content h2{
+        font-size: 1.5rem;
+    }
+    .home-content p{
+        font-size: 1rem;
+    }
+    .cimg {
+        height: 500px;
+    }
+}
+
+@media (max-width: 370px){
+    #home h1{
+        font-size: 1.8rem;
+    }
+    .home-content{
+        margin-top: 120px;
+    }
+    .home-content h2{
+        font-size: 1.3rem;
+    }
+    .home-content p{
+        font-size: 1rem;
+    }
+    .cimg {
+        height: 540px;
+    }
+    .about_section h2{
+        font-size: 1.5rem;
+    }
+    .about_section div{
+        font-size: 0.8rem;
+    }
+    .contact h2{
+        font-size: 1.5rem;
+    }
+    .contact_content div{
+        font-size: 0.8rem;
+    }
 }
