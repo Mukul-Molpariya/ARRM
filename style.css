@@ -3,6 +3,80 @@
     margin: 0;
 }
 
+/*  ******************  nav1    ************************   */
+
+header {
+    background-color: rgb(4, 4, 82);
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.organization {
+    flex-grow: 1; /* Grow to fill available space */
+}
+
+.organization-name {
+    font-size: 2.5rem; /* Increased font size */
+    text-align: center; /* Ensure text alignment is centered */
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+}
+
+.social-icons li {
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons .nav1_a {
+    color: #fff;
+    font-size: 40px;
+    transition: color 0.3s ease;
+}
+
+.social-icons .nav1_a:hover {
+    color: #ffcc00;
+}
+
+.fa-facebook:hover {
+    color: lightblue;
+}
+
+.fa-twitter:hover {
+    color: #1da1f2;
+}
+
+.fa-instagram:hover {
+    color: #e1306c;
+}
+
+.fa-youtube:hover {
+    color: red;
+}
+
 /*  ******************  home     ************************   */
 
 #home {

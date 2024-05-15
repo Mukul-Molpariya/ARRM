@@ -14,15 +14,15 @@
     margin-top: 15px;
 }
 
-a{
+.gallary_a{
     text-decoration: none;
     color: black;
     list-style: none;
     font-size: 1rem;
 }
 
-a:hover{
-    background-color: #ff004f;
+.gallary_a:hover{
+    background-color: #0077ff;
     color: white;
     font-weight: 500;
     padding: 5px;
